@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_playground/MyCustomWidget.dart';
 
 void main() => runApp(MyApp());
 
@@ -28,8 +29,8 @@ class _MyAppState extends State<MyApp> {
         ),
         body: Column(
           children: [
-            Text(duckText),
-            Text('some random text'),
+            MyCustomWidget(duckText),
+            MyCustomWidget('some random text'),
             Text('some random text'),
             RaisedButton(
               child: Text('button txt'),
