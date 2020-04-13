@@ -13,7 +13,7 @@ class MyCustomWidget extends StatelessWidget {
       width: double.infinity,
       margin: EdgeInsets.all(20),
       child: Text(
-        'some random txt',
+        passedTxt,
         style: TextStyle(fontSize: 36),
         textAlign: TextAlign.center,
       ),
